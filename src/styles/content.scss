@@ -1,0 +1,33 @@
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+header {
+  span.category {
+    display: block;
+    margin-top: 2rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--gray);
+  }
+
+  span {
+    color: var(--white);
+  }
+}
+
+main {
+  width: 100%;
+  padding: 2.5rem;
+  margin: 5.625rem auto 0;
+
+  .movies-list {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;   
+  }
+}
